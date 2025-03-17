@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+body {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.4)
+    ),
+    url("./images/sky_blue.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+.weather-card {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.search-input::placeholder {
+  color: rgba(0, 0, 0, 0.6);
+}
+.search-input {
+  padding: 10px;
+
+  background-color: rgb(255, 255, 255, 0);
+  border: solid 1px rgb(37, 35, 35);
+}
+.search-input:focus {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.search-input::placeholder {
+  color: rgb(0, 0, 0);
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin-bottom: 15px;
+}
+.search-button {
+  padding: 10px;
+  background-color: rgb(160, 160, 229);
+  border: none;
+  border-radius: 20px;
+}
+.search {
+  margin-bottom: 15px;
+}
